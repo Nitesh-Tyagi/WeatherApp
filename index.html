@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Weather</title>
+</head>
+<body class="font-mono bg-stone-400">
+  <div class="m-4 p-3 bg-stone-500 rounded-lg flex justify-center place-self-center box-content flex-col sm:flex-row">
+    <input type="text" id="city" class="p-2 m-1 rounded-md bg-stone-200 text-stone-800" placeholder="New Delhi">
+    <button id="searchButton" class="p-2 m-1 bg-stone-800 text-red-100 rounded-md">Search</button>
+  </div>
+  <div id="display" class="m-4 p-4 bg-stone-500 mt-2 rounded-lg text-stone-800">
+    <h3 class="text-2xl" id="rName"><h3>
+    <h4 class="text-xl" id="rCity"><h4>
+    <h5 class="text-lg" id="rTime"><h5>
+    <br>
+    <h4 class="text-xl" id="rWeather"><h4>
+    <h5 class="text-lg" id="rTemp"><h5>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
