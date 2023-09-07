@@ -10,7 +10,7 @@ const rWeather = document.getElementById('rWeather');
 const rTemp = document.getElementById('rTemp');
 
 async function getData(name){
-	const data = await fetch(`http://api.weatherapi.com/v1/current.json?key=a05f415d33dc47fa80e133550230709&q=${name}&aqi=no`)
+	const data = await fetch(`https://api.weatherapi.com/v1/current.json?key=a05f415d33dc47fa80e133550230709&q=${name}&aqi=no`)
 	return await data.json();
 }
 
